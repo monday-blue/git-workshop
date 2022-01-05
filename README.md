@@ -198,7 +198,7 @@ _不加空白 ---> _斜體_
 ### 1. 分支(branch)
 分支主要用來避免自己的程式作業影響到別人在專案中已完成並push或merge到github的主程式碼。
 
-主分支現預設名稱為Main,因之前的預設名稱Master帶有歧視問題(master主要的機器 - slave備份的機器)，修改預設名稱指令為`$ git branch -M (master原名不寫也可以) main` 。
+主分支現預設名稱為Main,因之前的預設名稱Master帶有歧視問題(master主要的機器 - slave備份的機器)，修改預設名稱指令為`$ git branch -M (master原名不寫也可以) main` 。     
 
 ![Imgur](https://i.imgur.com/WnoFdII.jpg)
 [修改圖片來源](https://www.nobledesktop.com/learn/git/git-branches)
