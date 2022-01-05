@@ -200,7 +200,7 @@ _不加空白 ---> _斜體_
 
 主分支現預設名稱為Main,因之前的預設名稱Master帶有歧視問題(master主要的機器 - slave備份的機器)，修改預設名稱指令為`$ git branch -M (master原名不寫也可以) main` 。     
 
-![Imgur](https://i.imgur.com/WnoFdII.jpg)
+![Imgur](https://i.imgur.com/WnoFdII.jpg)     
 [修改圖片來源](https://www.nobledesktop.com/learn/git/git-branches)
 
 &nbsp;
