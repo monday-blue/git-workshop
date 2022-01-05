@@ -220,7 +220,7 @@ A.「團隊一致性」，原則上是盡量小、但要完整
 	- 看進度     
 	- 萬一電腦/人出問題     
 
-而在功能完整要commit到develop分支時，通常不會直接魯莽的就把feature分支merge(merge指令通常不會直接使用)到develop分支，而是先commit後，去github進行pull requests，再請同事主管code review確認後(在此期間可以使用issues功能交流)，從github上按merge按鈕來做confirm merge動作。
+而在功能完整要commit到develop分支時，通常不會直接魯莽的就把feature分支merge(merge指令通常不會直接使用)到develop分支，而是先commit後，去github進行pull requests，再請同事主管code review確認後(在此期間可以使用issues功能交流)，從github上按merge按鈕來做confirm merge動作。     
 ![Git Flow](https://gitbook.tw/images/tw/gitflow/why-need-git-flow/flow.png)
 [圖片來源](https://gitbook.tw/images/tw/gitflow/why-need-git-flow/flow.png)
 
