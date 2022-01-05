@@ -1,21 +1,11 @@
-# git-workshop README.md
-
----
-title: 2021.12.25-26 NodeJS Class Note
-tags: 
-description: 
-version: 20211225
----
-
-
 
 ---
 # 2021/12/25-26 NodeJS 筆記
 ---
 
 - 授課教師：
-姓名： Ashley (小賴) 賴怡玲
-Email: ashleylai58@gmail.com
+姓名： Ashley (小賴) 賴怡玲     
+Email: ashleylai58@gmail.com   
 
 - 共筆與課程資料連結：
   - [12/25  Git Workshop for MFEE22](https://hackmd.io/Ns0AuMFtROOT9E0oSujQ7A)
@@ -90,10 +80,11 @@ https://github.com/azole/node-mfee22
 &nbsp;
 
 ### 3. 文字樣式(行內元素)
-＊一個 ---> *斜體*
-＊後加空白 ---> * 可以真的打出＊*
-_不加空白 ---> _斜體_
-＊＊兩個 ---> **粗體**
+＊一個 ---> *斜體*     
+＊後加空白 ---> * 可以真的打出＊*     
+_不加空白 ---> _斜體_     
+＊＊兩個 ---> **粗體**     
+
 &nbsp;
 
 ### 4. 引用文字(階層)
@@ -108,7 +99,8 @@ _不加空白 ---> _斜體_
 
 ### 5. 換行文字與加空白行
 換行：行後加 兩個或多個空白鍵 然後按 enter    
-加一個以上的空白行：打html語法 \&nbsp; 
+加一個以上的空白行：打html語法 \&nbsp;     
+
 &nbsp;
 &nbsp;
        
@@ -174,12 +166,13 @@ _不加空白 ---> _斜體_
 ![聖誕節](https://images.unsplash.com/photo-1479722842840-c0a823bd0cd6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2072&q=80 "滑鼠停留文字在此")
 
 ### 3. URL
-<>
+<>     
 <https://www.google.com.tw/>
 
-文中 加空白 再打 ＊ 可加連結的文字樣式
-要去youtube *[請點此](https://www.youtube.com/)*
-要去youtube **[請點此](https://www.youtube.com/)**
+文中 加空白 再打 ＊ 可加連結的文字樣式      
+要去youtube *[請點此](https://www.youtube.com/)*     
+要去youtube **[請點此](https://www.youtube.com/)**    
+
 &nbsp;
 
 
@@ -216,16 +209,16 @@ _不加空白 ---> _斜體_
 Git Flow為專案開發的github分支命名分配與pull、commit方向流程。
 下圖的release和master分支為正式專案主幹，通常工程師不會commit到這上面，hotfix為正式版發現緊急bug時分出的修改分支。
 
-develop為主開發分支，工程師通常從develop分支再分出功能與功能更細項(feature)，一項功能寫完後再commit回develop分支。
+develop為主開發分支，工程師通常從develop分支再分出功能與功能更細項(feature)，一項功能寫完後再commit回develop分支。     
 
-Q. feture分支如何切？
-A. 需要團隊討論得到共識。
-
-Q. 多久（寫多少程式）應該 commit (到develop分支) 一次？
-A.「團隊一致性」，原則上是盡量小、但要完整
--> 建議每天下班前請先 commit 一次(在自己的feature分支)
-	- 看進度
-	- 萬一電腦/人出問題
+Q. feture分支如何切？     
+A. 需要團隊討論得到共識。     
+     
+Q. 多久（寫多少程式）應該 commit (到develop分支) 一次？     
+A.「團隊一致性」，原則上是盡量小、但要完整     
+-> 建議每天下班前請先 commit 一次(在自己的feature分支)     
+	- 看進度     
+	- 萬一電腦/人出問題     
 
 而在功能完整要commit到develop分支時，通常不會直接魯莽的就把feature分支merge(merge指令通常不會直接使用)到develop分支，而是先commit後，去github進行pull requests，再請同事主管code review確認後(在此期間可以使用issues功能交流)，從github上按merge按鈕來做confirm merge動作。
 ![Git Flow](https://gitbook.tw/images/tw/gitflow/why-need-git-flow/flow.png)
@@ -272,9 +265,9 @@ A.「團隊一致性」，原則上是盡量小、但要完整
 |  git config --global user.email "user@gmail.com"  |  設定User訊息 |
 
 **2.初始化資料夾讓git管理**
-|  Git指令   |  作用  |
-|  ---  | ---  |
-|  git init   |  init(initial)，初始化一個資料夾，讓這個資料夾可以被git管理(要cd進入要被git管理的資料夾進行此動作，不然會整個電腦被git控制)，做完後可以看到資料夾有一個隱藏的.git資料夾  |
+|    Git指令      |  作用  |
+|    ---      | ---  |
+|    git init       |  init(initial)，初始化一個資料夾，讓這個資料夾可以被git管理(要cd進入要被git管理的資料夾進行此動作，不然會整個電腦被git控制)，做完後可以看到資料夾有一個隱藏的.git資料夾  |
 
 **3.本地倉庫與遠端倉庫互動的動作**
 
@@ -414,7 +407,7 @@ for (let i = 0; i < 10000; i++)
 console.timeEnd('recursive');
 ```
  Big O
-Big O為演算法的效能表示方式
+Big O為演算法的效能表示方式     
 O(1) > O(log n) > O(n) > O(n^2)
  
 &nbsp;
@@ -424,12 +417,13 @@ O(1) > O(log n) > O(n) > O(n^2)
 # NodeJS介紹與安裝、作業系統概念
 ---
 ## 一、NodeJS介紹與安裝
-NodeJS可以說是一個執行環境，由Ryan研發，github開源。
-JS在瀏覽器端執行 --> html裡的<script></script>
-JS在伺服器端執行 --> NodeJS (Google Chrome V8 引擎為核心)
+NodeJS可以說是一個執行環境，由Ryan研發，github開源。      
+JS在瀏覽器端執行 --> html裡的<script></script>     
+JS在伺服器端執行 --> NodeJS (Google Chrome V8 引擎為核心)     
+     
+nvm指令安裝方式     
 
-nvm指令安裝方式
-
+&nbsp;
 
 ## 二、作業系統(Operating System，OS)概念
 
@@ -461,28 +455,30 @@ nvm指令安裝方式
 ## 一、書籍
 《重構》
 
-“任何一個傻瓜都能寫出電腦可以理解的程式，唯有優秀的程式設計師能寫出讓人讀懂的程式。”
-—M. Fowler (1999)
+“任何一個傻瓜都能寫出電腦可以理解的程式，唯有優秀的程式設計師能寫出讓人讀懂的程式。”     
+—M. Fowler (1999)     
 
-《JavaScript大全》犀牛書
-《JavaScript優良部份》蝴蝶書
-《Operating System Concepts》恐龍書
+《JavaScript大全》犀牛書     
+《JavaScript優良部份》蝴蝶書     
+《Operating System Concepts》恐龍書     
+
+&nbsp;
 
 ## 二、重要概念摘要
 (傳統)瀑布式開發 vs SCRUM開發
 
-瀑布式開發：較適合硬體開發。
+瀑布式開發：較適合硬體開發。     
 SCRUM開發：較適合軟體開發，2-4週一個SPRINT衝刺，planning估點數，daily sync 3問，demo review，反省會議4問。
 
-資料結構 Data Structure (DS)
-演算法 Algorithm (Algo)
-資料庫 Database (DB)
-  正規化 <-- 怎麼設計 table schema
-  （這不是一定非得要遵守的法律，但是我們會盡量遵守，的確有時候會因為一些商業邏輯特殊的設定，會違反正規化）
-網路 Networking
-作業系統 Operating System (OS)
-
-...還有很多來不及寫XD
+資料結構 Data Structure (DS)     
+演算法 Algorithm (Algo)     
+資料庫 Database (DB)     
+  正規化 <-- 怎麼設計 table schema     
+  （這不是一定非得要遵守的法律，但是我們會盡量遵守，的確有時候會因為一些商業邏輯特殊的設定，會違反正規化）     
+網路 Networking     
+作業系統 Operating System (OS)     
+     
+...還有很多來不及寫XD     
 
 &nbsp;
 &nbsp;
